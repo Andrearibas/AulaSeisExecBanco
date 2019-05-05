@@ -11,6 +11,7 @@ public class ContaPoupanca extends Conta{
     }
 
     public void recolherJuros(){
+        System.out.println(getSaldo()*taxaDeJuros);
 
     }
 }

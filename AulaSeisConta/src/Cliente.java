@@ -45,4 +45,11 @@ public class Cliente {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
+    public void imprimirDados(){
+        System.out.println("Nome: "+ nome + " " +sobrenome);
+        System.out.println("Numero RG: "+rg);
+        System.out.println("Numero CPF: "+cpf);
+        System.out.println("Numero da Conta: "+numero);
+    }
 }
